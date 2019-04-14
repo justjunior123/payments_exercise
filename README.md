@@ -47,4 +47,13 @@ First we need to setup our environment and make sure all our assets, gemfiles, t
 ```bash
   $ rails s
 ```
-After you run the command in terminal go ahead and on your web browser (internet) check to make sure the common rails page is working. http://localhost:3000/
+After you run the command in terminal go ahead and on your web browser (internet) check to make sure the common rails landing page is working.
+http://localhost:3000/
+
+Cool, the landing page is up and we are being welcomed to rails. Lets make sure that the test cases that came with this forked repo light up green.
+
+4. In your terminal go ahead run the test cases with the following command.
+```bash
+  $ bundle exec rspec
+```
+Boom! Green is a good sign and we can confidently start the next stage of this exercise. 
