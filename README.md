@@ -6,3 +6,5 @@ A payment should not be able to be created that exceeds the outstanding balance 
 
 
 # Getting Rails Started
+
+First we need to setup our environment and make sure all our assets, gemfiles, etc are all working. 
