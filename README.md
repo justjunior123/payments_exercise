@@ -19,4 +19,14 @@ Make sure to fork the payments exercise and that it pops up locally in a github 
 
 # Getting Rails Started
 
-First we need to setup our environment and make sure all our assets, gemfiles, etc are all working.
+First we need to setup our environment and make sure all our assets, gemfiles, test cases etc are all working.
+
+1. Bundle install all the things!
+```bash
+  $ bundle install
+```
+2. lets setup our database
+```bash
+  $ rake db:migrate
+  $ rake db:seed
+```
