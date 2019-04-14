@@ -56,4 +56,11 @@ Cool, the landing page is up and we are being welcomed to rails. Lets make sure 
 ```bash
   $ bundle exec rspec
 ```
-Boom! Green is a good sign and we can confidently start the next stage of this exercise. 
+Boom! Green is a good sign and we can confidently start the next stage of this exercise.
+
+# Check Our "Loan" Endpoint
+
+Before we start coding anything we should see what our database looks like and interpret those model"s" accordingly. Take a look at the schema, navigate to payments_exercise/db/schema.rb
+It should have a Loan table already in there, let's check one more thing. In our localhost landing page go ahead and type /loans on the end of the browser string. It should look like this..
+http://localhost:3000/loans
+What we are looking at is a json response of the data that is being persisted from our backend in json format. Looks like we are ready to start this exercise. 
