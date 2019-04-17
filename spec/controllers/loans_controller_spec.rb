@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'spec_helper'
 
 RSpec.describe LoansController, type: :controller do
   describe '#index' do

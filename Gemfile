@@ -17,6 +17,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry'
   gem 'bootsnap'
+  gem 'shoulda-matchers'
 end
 
 group :development do
@@ -24,4 +25,3 @@ group :development do
   gem 'spring'
   gem 'listen'
 end
-
